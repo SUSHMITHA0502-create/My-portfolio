@@ -606,6 +606,24 @@ section,
   }
 }
 
+#home {
+  background-image: url("../img/img1.avif");
+  background-size: cover;  /* Ensures full coverage */
+  background-position: center center; /* Centers the image */
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Full viewport height */
+}
+
+
+
+@media (max-width: 768px) {
+  #home {
+      background-attachment: scroll;
+      background-position: top center;
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # About Section
